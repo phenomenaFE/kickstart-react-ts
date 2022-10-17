@@ -1,6 +1,10 @@
+import { Container } from "react-bootstrap";
+
 function Home() {
     return ( 
-        <h1>home</h1>
+        <Container fluid>
+            <h3>hello</h3>
+        </Container>
      );
 }
 

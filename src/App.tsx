@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/Assets/Styles/App.css';
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Home from './Pages/Home';
+import router from './Setup/roues-manage/routes';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      
+     <RouterProvider router={router} />
     </div>
   );
 }

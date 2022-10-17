@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/Assets/Styles/App.css';
-import {createBrowserRouter,RouterProvider} from 'react-router-dom'
-import Home from './Pages/Home';
+import {RouterProvider} from 'react-router-dom'
+
 import router from './Setup/roues-manage/routes';
 
 function App() {
